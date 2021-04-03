@@ -19,4 +19,8 @@ public class Player {
     public String getName() {
         return name;
     }
+
+    boolean hasSameScoreAs(Player tennisPlayer) {
+        return getScore() == tennisPlayer.getScore();
+    }
 }
